@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Abogados">
+        <menu>
+            <item
+                android:id="@+id/menu_alta_abog"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="Alta de Abogados" />
+            <item
+                android:id="@+id/menu_consulta_abogados"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Consultar Abogados" />
+        </menu>
+    </item>
+
+    <item android:title="Casos">
+        <menu>
+            <item
+                android:id="@+id/menu_alta_casos"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="Alta de Casos" />
+            <item
+                android:id="@+id/menu_alta_gestiones"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="Alta de Gestiones" />
+        </menu>
+    </item>
+
+</menu>

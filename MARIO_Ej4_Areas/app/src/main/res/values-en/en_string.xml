@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Calculation of Areas</string>
+    <string name="cuadrado">Square</string>
+    <string name="triangulo">Triangle</string>
+    <string name="rectangulo">Rectangle</string>
+    <string name="lado">Side</string>
+    <string name="altura">Height</string>
+    <string name="base">Base</string>
+    <string name="calcular">Calculate</string>
+    <string name="resultado">RESULT</string>
+    <string name="mensajeCuadrado">Introcuce valid side</string>
+    <string name="mensajeTriangulo">Introcuce a valid value</string>
+    <string name="mensajeRectangulo">Introcuce valid a base or a height</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textoUser">"Users: mario, luis, jesus y maria"</string>
+    <string name="textoPass">Passwords: xxx, xxx2, xxx3 y xxx4</string>
+    <string name="mensaje">User or password do not match</string>
+    <string name="mensajeNoHayCorreos">You do not have messages</string>
+    <string name="aceptar">OK</string>
+</resources>

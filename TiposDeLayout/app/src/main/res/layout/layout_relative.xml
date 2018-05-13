@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/seccion_etiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/etiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="etiqueta1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seccion_etiqueta" />
+
+    <EditText
+        android:id="@+id/etiqueta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="etiqueta2"
+        android:layout_below="@+id/etiqueta"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etiqueta2"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnOk"
+        android:layout_toLeftOf="@+id/btnOk"
+        android:layout_marginEnd="10dp"
+        android:text="CANCELAR" />
+
+    <TextView
+        android:id="@+id/etiqueta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnOk"
+        android:paddingTop="10dp"
+        android:text="etiqueta3" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOk"
+        android:layout_alignBottom="@+id/etiqueta3"
+        android:inputType="textPersonName"
+        android:background="@android:drawable/editbox_background"
+        android:text="Name"
+        android:layout_toEndOf="@+id/etiqueta3" />
+</RelativeLayout>

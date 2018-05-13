@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MARIO_Ej1_Correo</string>
+    <string name="title_activity_seleccion">Seleccion</string>
+    <string name="textoUser">"Usuarios: mario, luis, jesus y maria"</string>
+    <string name="textoPass">contraseñas: xxx, xxx2, xxx3 y xxx4</string>
+    <string name="mensaje">Contraseña o usuario no coinciden</string>
+    <string name="menUser">Menu de </string>
+    <string name="botonVerMensajes">Ver Mensajes</string>
+    <string name="botonEnviarMensajes">Enviar Mensajes</string>
+    <string name="botonEnviar">Enviar</string>
+    <string name="title_activity_vleer">VLeer</string>
+    <string name="large_text">
+
+    </string>
+    <string name="action_LogOff">Desconexión</string>
+    <string name="action_mUser">Regresar al Menú</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ej4_Areas</string>
+    <string name="titulo">Calculo de Áreas</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="rectangulo">Rectángulo</string>
+    <string name="lado">Lado</string>
+    <string name="altura">Altura</string>
+    <string name="base">Base</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">RESULTADO</string>
+    <string name="mensajeCuadrado">Introcuce un lado valido</string>
+    <string name="mensajeTriangulo">Introcuce un valor valido</string>
+    <string name="mensajeRectangulo">Introcuce una base o una altura validos</string>
+</resources>

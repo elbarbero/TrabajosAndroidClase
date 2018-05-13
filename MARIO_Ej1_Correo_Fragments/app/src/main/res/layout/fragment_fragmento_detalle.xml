@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mario.mario_ej1_correo.VISTA.FragmentoDetalle">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/selectableItemBackground"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/rLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light">
+
+            <TextView
+                android:id="@+id/txtFecha"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textNomU"
+                android:layout_alignStart="@+id/textNomU"
+                android:layout_below="@+id/textNomU"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Asunto: " />
+
+            <TextView
+                android:id="@+id/textNomU"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textAsunto"
+                android:layout_alignStart="@+id/textAsunto"
+                android:layout_below="@+id/textAsunto"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:id="@+id/textAsunto"
+                android:layout_width="278dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="14dp" />
+
+            <TextView
+                android:id="@+id/Remitente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/textNomU"
+                android:text="Remitente: " />
+
+            <EditText
+                android:id="@+id/textContenido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFecha"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/Fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txtFecha"
+                android:text="Fecha: " />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
+

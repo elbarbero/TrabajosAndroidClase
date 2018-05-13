@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="usuarios">
+        <item>mario</item>
+        <item>luis</item>
+        <item>jesus</item>
+        <item>maria</item>
+    </string-array>
+
+    <string-array name="apellidos">
+        <item>barbero</item>
+        <item>jimenez</item>
+        <item>pelayo</item>
+        <item>santillan</item>
+    </string-array>
+
+    <string-array name="curso">
+        <item>2ºGS Desarrollo de Aplicaciones Multiplataforma</item>
+        <item>2º Bachillerato</item>
+        <item>4ºESO</item>
+        <item>1ºGM Mecanizado</item>
+    </string-array>
+
+    <string-array name="contraseñas">
+        <item>xxx</item>
+        <item>xxx2</item>
+        <item>xxx3</item>
+        <item>xxx4</item>
+    </string-array>
+
+</resources>

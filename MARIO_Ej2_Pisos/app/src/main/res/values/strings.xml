@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Alquiler de Pisos</string>
+    <string name="large_text"></string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="habitaciones">Nª Habitaciones</string>
+    <string name="banos">Nº Baños</string>
+    <string name="garaje">Garaje</string>
+    <string name="trastero">Trastero</string>
+    <string name="tamano">Tamaño</string>
+    <string name="antiguedad">Antigüedad</string>
+    <string name="precio">Precio</string>
+    <string name="informacion1">Infromación de la Inmobiliaria</string>
+    <string name="informacion2">Inmobiliaria Mabasa</string>
+    <string name="informacion3">Propietario: Mario Barbero</string>
+    <string name="informacion4">Tlf: 947365135</string>
+    <string name="informacion5">BURGOS</string>
+
+    <string-array name="nombres">
+        <item>Edifico Tomasis</item>
+        <item>Edificio DAM</item>
+        <item>Edificio Solán</item>
+        <item>Edificio Garcilaso</item>
+        <item>Edificio Hernandez</item>
+        <item>Edificio Main</item>
+        <item>Edificio Fortín</item>
+    </string-array>
+
+    <string-array name="direcciones">
+        <item>Avda/Federico Garcia Lorca Nº 15</item>
+        <item>Avda/ Arlanzón Nº2</item>
+        <item>Calle Bailén Nº12</item>
+        <item>Calle Santiago Apostol Nº23</item>
+        <item>Calle Vitoría Nº174</item>
+        <item>Calle Condesa Mencia Nº7</item>
+        <item>Avda/Castilla y León Nº4</item>
+    </string-array>
+
+    <string-array name="precios">
+        <item>630 €/mes</item>
+        <item>800 €/mes</item>
+        <item>410 €/mes</item>
+        <item>500 €/mes</item>
+        <item>450 €/mes</item>
+        <item>640 €/mes</item>
+        <item>1000 €/mes</item>
+    </string-array>
+
+    <string-array name="ubicaciones">
+        <item>Gamonal</item>
+        <item>San Pedro y San Felices</item>
+        <item>Capiscol</item>
+        <item>Centro</item>
+        <item>Gamonal</item>
+        <item>Fuentecillas</item>
+        <item>Gamonal</item>
+    </string-array>
+
+    <string-array name="NumHabita">
+        <item>3 habitaciones</item>
+        <item>2 habitaciones</item>
+        <item>4 habitaciones</item>
+    </string-array>
+
+    <string-array name="NumBanos">
+        <item>1 baño</item>
+        <item>2 baños</item>
+    </string-array>
+
+    <string-array name="garaje">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string-array name="trastero">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string-array name="metros">
+        <item>80 m2</item>
+        <item>100 m2</item>
+        <item>70 m2</item>
+        <item>68 m2</item>
+        <item>82 m2</item>
+        <item>108 m2</item>
+        <item>60 m2</item>
+    </string-array>
+
+    <string-array name="antiguedad">
+        <item>20 años</item>
+        <item>5 años</item>
+        <item>40 años</item>
+        <item>26 años</item>
+        <item>10 años</item>
+        <item>12 años</item>
+        <item>32 años</item>
+    </string-array>
+
+    <string name="action_settings">Información</string>
+</resources>

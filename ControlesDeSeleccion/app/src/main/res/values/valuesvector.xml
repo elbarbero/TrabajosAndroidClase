@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ciudades">
+        <item>Burgos</item>
+        <item>Segovia</item>
+        <item>Avila</item>
+        <item>Soria</item>
+        <item>Valladolid</item>
+        <item>Palencia</item>
+        <item>Salamanca</item>
+        <item>León</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+        <item>Burgos</item>
+    </string-array>
+</resources>

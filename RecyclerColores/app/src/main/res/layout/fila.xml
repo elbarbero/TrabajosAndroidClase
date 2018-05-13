@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:layout_width="@dimen/tamaño_circulo"
+        android:layout_height="@dimen/tamaño_circulo"
+        android:background="@drawable/circulo"
+        android:id="@+id/circulo"/>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/circulo"
+        android:paddingLeft="@dimen/espacio_texto"
+
+        android:text="Circulo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/circulo"
+        android:paddingLeft="@dimen/espacio_texto"
+        android:layout_below="@id/texto"
+        android:paddingTop="@dimen/espacio_texto"
+        android:text="Button" />
+
+</RelativeLayout>

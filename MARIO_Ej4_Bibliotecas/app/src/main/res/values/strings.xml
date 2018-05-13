@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Listado de Bibliotecas</string>
+    <string name="large_text"></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_datos_biblioteca">Datos de Biblioteca</string>
+
+    <string-array name="bibliotecas">
+        <item>Biblioteca de Castilla y Leon</item>
+        <item>Biblioteca de Avila</item>
+        <item>Biblioteca de Burgos</item>
+        <item>Biblioteca de Leon</item>
+        <item>Biblioteca de Palencia</item>
+        <item>Biblioteca de Salamanca</item>
+        <item>Biblioteca de Segovia</item>
+        <item>Biblioteca Pública de Soria</item>
+        <item>Biblioteca Pública de Valladolid</item>
+        <item>Biblioteca de Zamora</item>
+    </string-array>
+
+    <string-array name="direcciones">
+        <item>Plaza Trinidad, 2, 47003 Valladolid</item>
+        <item>Plaza de la Catedral, 3, 05001 Ávila</item>
+        <item>Plaza San Juan, s/n, 09004 Burgos</item>
+        <item>Calle Sta. Nonia, 5, 24003 León</item>
+        <item>Calle Eduardo Dato, 4, 34005 Palencia</item>
+        <item>Calle Compañía, 2, 37002 Salamanca</item>
+        <item>Calle los Procuradores de la Tierra, 6, 40006 Segovia</item>
+        <item>Calle Nicolás Rabal, 25, 42003 Soria</item>
+        <item>Plaza Trinidad, 2, 47003 Valladolid</item>
+        <item>Plaza Claudio Moyano, s/n, 49001 Zamora</item>
+    </string-array>
+
+    <string-array name="webs">
+        <item>http://www.bibliotecas.jcyl.es/</item>
+        <item>http://www.bibliotecas.jcyl.es/avila</item>
+        <item>http://www.bibliotecas.jcyl.es/burgos</item>
+        <item>http://www.bibliotecas.jcyl.es/leon</item>
+        <item>http://www.bibliotecas.jcyl.es/palencia</item>
+        <item>http://www.bibliotecas.jcyl.es/salamanca</item>
+        <item>http://www.bibliotecas.jcyl.es/segovia</item>
+        <item>http://www.bibliotecas.jcyl.es/soria</item>
+        <item>http://www.bibliotecas.jcyl.es/</item>
+        <item>http://www.bibliotecas.jcyl.es/zamora</item>
+    </string-array>
+
+    <integer-array name="telefonos">
+        <item>983358599</item>
+        <item>920212132</item>
+        <item>947256419</item>
+        <item>987206710</item>
+        <item>979751100</item>
+        <item>923269317</item>
+        <item>921463533</item>
+        <item>975221800</item>
+        <item>983358599</item>
+        <item>980531551</item>
+    </integer-array>
+
+    <string-array name="correos">
+        <item>bcl@jcyl.es</item>
+        <item>bcl_Avila@jcyl.es</item>
+        <item>bcl_Burgos@jcyl.es</item>
+        <item>bcl_Leon@jcyl.es</item>
+        <item>bcl_Palencia@jcyl.es</item>
+        <item>bcl_Salamanca@jcyl.es</item>
+        <item>bcl_Segovia@jcyl.es</item>
+        <item>bcl_Soria@jcyl.es</item>
+        <item>bcl@jcyl.es</item>
+        <item>bcl_Zamora@jcyl.es</item>
+    </string-array>
+
+</resources>

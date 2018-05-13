@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EjercicioCorreos</string>
+    <string name="autor">Autor</string>
+    <string name="autorApli">Autor de la Aplicación</string>
+    <string name="title_activity_actividad_lista_correos">ActividadListaCorreos</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre_remit">Remitente</string>
+    <string name="asunto">Asunto</string>
+    <string name="contenido">contenido</string>
+    <string name="btn_volv">volver</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

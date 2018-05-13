@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usuario">User</string>
+    <string name="contrasena">Password</string>
+    <string name="texto">Enter the user and password to access. The user and passwords allowed are:</string>
+    <string name="textoUser">"Users: mario, luis, jesus y maria"</string>
+    <string name="textoPass">Passwords: xxx, xxx2, xxx3 y xxx4</string>
+    <string name="mensaje">User or password do not match</string>
+    <string name="aceptar">OK</string>
+</resources>

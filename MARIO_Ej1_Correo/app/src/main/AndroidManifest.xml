@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mario.mario_ej1_correo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VISTA.Inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VISTA.Autor" />
+        <activity android:name=".VISTA.Login" />
+        <activity android:name=".VISTA.VEnvio" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".VISTA.MenuUsuario" />
+        <activity
+            android:name=".VISTA.VLeer"
+            android:label="@string/title_activity_vleer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".VISTA.ActivityCorreos"></activity>
+    </application>
+
+</manifest>

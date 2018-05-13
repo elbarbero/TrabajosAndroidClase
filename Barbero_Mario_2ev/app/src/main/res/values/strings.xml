@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Barbero_Mario_2ev</string>
+    <string name="mensaje">Usuario o contraseña incorrecto</string>
+    <string name="mensTry">CRASH</string>
+</resources>

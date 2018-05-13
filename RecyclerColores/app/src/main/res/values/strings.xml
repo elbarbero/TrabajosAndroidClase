@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerColores</string>
+    <string name="rojo">ROJO</string>
+    <string name="verde">VERDE</string>
+    <string name="amarillo">AMARILLO</string>
+    <string name="negro">NEGRO</string>
+</resources>

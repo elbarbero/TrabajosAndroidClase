@@ -1,0 +1,174 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.acme.mario_ej1_abogados_bd.vista.FragmentoDetalle">
+
+
+    <RelativeLayout
+        android:id="@+id/rLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/txtTipo"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="DATOS DEL ABOGADO"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/colegiado"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Id Abogado: " />
+
+                <TextView
+                    android:id="@+id/txtIdAbogado"
+                    android:layout_width="278dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView14"
+                    android:layout_alignBottom="@+id/textView14"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/colegiado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/txtNombre"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="18dp"
+                    android:gravity="center"
+                    android:text="Número Colegiado:" />
+
+                <TextView
+                    android:id="@+id/txtNumColegiado"
+                    android:layout_width="231dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/colegiado"
+                    android:layout_alignBottom="@+id/colegiado"
+                    android:layout_alignEnd="@+id/txtNombre"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/nom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/txtNombre"
+                    android:gravity="center"
+                    android:text="Nombre:" />
+
+                <TextView
+                    android:id="@+id/txtNombre"
+                    android:layout_width="231dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="20dp"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Casos"
+                    android:textAlignment="center" />
+
+                <Spinner
+                    android:id="@+id/spCasos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gestiones"
+                    android:textAlignment="center" />
+
+                <Spinner
+                    android:id="@+id/spGestiones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center_vertical"
+                android:gravity="top|left|center_horizontal">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</FrameLayout>
+

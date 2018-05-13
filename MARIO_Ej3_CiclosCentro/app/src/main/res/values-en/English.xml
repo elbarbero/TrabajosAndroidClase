@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="usuario">User</string>
+        <string name="contrasena">Password</string>
+        <string name="mensajeUser">You must fill in the User field</string>
+        <string name="mensajeLogin">Incorrect username or password</string>
+        <string name="mensajeCorrecto">Correct user</string>
+        <string name="botonAceptar">OK</string>
+        <string name="titulo">List of Academic Courses</string>
+</resources>

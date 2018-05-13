@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">hilos</string>
+
+        <string name="pruebe_suerte">PRUEBE SUERTE</string>
+        <string name="jugar">Jugar</string>
+
+        <string name="dif_cil">Difícil</string>
+        <string name="medio">Medio</string>
+        <string name="f_cil">Fácil</string>
+        <string name="tragaperras">TRAGAPERRAS</string>
+        <string name="todo">TODO</string>
+
+
+
+</resources>

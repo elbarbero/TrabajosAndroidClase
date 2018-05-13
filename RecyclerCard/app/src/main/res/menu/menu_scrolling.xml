@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mbs.recyclercard.vista.ScrollingActivity">
+    <item
+        android:id="@+id/autorcillo"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:orderInCategory="100"
+        android:title="Autor"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/preferences"
+        android:orderInCategory="100"
+        android:title="preferencias"
+        app:showAsAction="never" />
+</menu>

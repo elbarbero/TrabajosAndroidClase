@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ej1_Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="texto">Introducir el usuario y contraseña para poder acceder.Los usuario y contraseñas permitidos son:</string>
+    <string name="textoUser">"Usuarios: mario, luis, jesus y maria"</string>
+    <string name="textoPass">contraseñas: xxx, xxx2, xxx3 y xxx4</string>
+    <string name="mensaje">Contraseña o usuario no coinciden</string>
+    <string name="aceptar">Aceptar</string>
+</resources>

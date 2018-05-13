@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Ciclos del Centro</string>
+    <string name="invi">Invitado</string>
+    <string name="alum">Alumno</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="mensajeUser">Debe rellenar el campo Usuario</string>
+    <string name="mensajeLogin">Usuario o contraseña incorrectos</string>
+    <string name="mensajeCorrecto">Usuario correcto</string>
+    <string name="botonAceptar">Aceptar</string>
+    <string name="titulo">Listado de Cursos cademicos</string>
+
+    <string-array name="cursos">
+        <item>Instalaciones de Telecomunicaciones</item>
+        <item>Instalaciones Eléctricas y Automticas</item>
+        <item>Mantenimiento Electromecánico</item>
+        <item>Automatización y Robótica Industrial</item>
+        <item>Desarrollo de Aplicaciones Multiplataforma</item>
+        <item>Administración y Finanzas</item>
+    </string-array>
+
+    <string-array name="users">
+        <item>Alumno</item>
+        <item>Invitado</item>
+    </string-array>
+
+    <string-array name="contras">
+        <item>alumno15</item>
+        <item>invitado15</item>
+    </string-array>
+
+    <string-array name="tipo">
+        <item>Grado Medio</item>
+        <item>Grado Superior</item>
+    </string-array>
+
+    <string-array name="modulos1">
+        <item>Electronica Aplicada</item>
+        <item>Equipos Microinformaticos</item>
+        <item>Infraestructura de Redes></item>
+        <item>Instalaciones Electricas Básicas</item>
+        <item>Instalaciones de Radiocomunicaciones</item>
+        <item>Formación y Orientación Laboral</item>
+    </string-array>
+
+    <string-array name="modulos2">
+        <item>Automatismos Industriales</item>
+        <item>Electrónica</item>
+        <item>Electrotécnia</item>
+        <item>Instalaciones Electricas Interiores</item>
+        <item>Formación y Orientación Laboral</item>
+        <item>Instalaciones Electricas en Renovables</item>
+    </string-array>
+
+    <string-array name="modulos3">
+        <item>Técnicas de Fabricación</item>
+        <item>Técnicas de Unión y Montaje</item>
+        <item>Electricidad y Automatismos Eléctricos</item>
+        <item>Automatismos Neumáticos e Hidráulicos</item>
+        <item>Formación y Orientación Laboral</item>
+    </string-array>
+
+    <string-array name="modulos4">
+        <item>Sistemas Eléctricos, Neumáticos e Hidráulicos</item>
+        <item>Sistemas Secuenciales Programables</item>
+        <item>Sistemas de Medida y Regulación</item>
+        <item>Sistemas de Potencia</item>
+        <item>Documentación Técnica</item>
+        <item>Informatica Industrial</item>
+        <item>Formación y Orientación Laboral</item>
+    </string-array>
+
+    <string-array name="modulos5">
+        <item>Programación</item>
+        <item>Sistemas Informáticos</item>
+        <item>Bases de Datos</item>
+        <item>Lenguajes de Marcas</item>
+        <item>Entornos de Desarrollo</item>
+        <item>Formación y Orientación Laboral</item>
+    </string-array>
+
+    <string-array name="modulos6">
+        <item>Gestón de Documentación Jurídica</item>
+        <item>Recursos Humanos</item>
+        <item>Ofimática</item>
+        <item>Proceso Integral de la Actividad Comercial</item>
+        <item>Comunicación y Atención al Cliente</item>
+        <item>Inglés</item>
+        <item>Formación y Orientación Laboral</item>
+    </string-array>
+
+    <string name="duracion">2.000 horas</string>
+
+    <string name="title_activity_invitado">InvitadoActivity</string>
+    <string name="large_text"> </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alumno">AlumnoActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_datos_ciclo">DatosCiclo</string>
+</resources>

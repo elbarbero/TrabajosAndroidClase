@@ -1,0 +1,260 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mario.mario_ej2_pisos.VISTA.FragmentoDetalle">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/selectableItemBackground"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="429dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="232dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.33"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="146dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/pr3"
+                android:layout_alignBottom="@+id/pr3"
+                android:layout_alignEnd="@+id/txtNombre"
+                android:layout_marginEnd="40dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtAnnos"
+                app:layout_constraintVertical_bias="0.037"
+                />
+
+            <TextView
+                android:id="@+id/txtTamanno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtTrastero"
+                android:layout_alignTop="@+id/op2"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTrastero" />
+
+            <TextView
+                android:id="@+id/txtUbicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignStart="@+id/txtPrecio"
+                android:layout_alignTop="@+id/uno3"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/txtHabitaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/s2"
+                android:layout_alignBottom="@+id/s2"
+                android:layout_alignStart="@+id/txtUbicacion"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtUbicacion" />
+
+            <TextView
+                android:id="@+id/txtBanos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtHabitaciones"
+                android:layout_alignTop="@+id/as2"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtHabitaciones" />
+
+            <TextView
+                android:id="@+id/txtTrastero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/rtr2"
+                android:layout_alignBottom="@+id/rtr2"
+                android:layout_alignStart="@+id/txtGaraje"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtGaraje" />
+
+            <TextView
+                android:id="@+id/txtAnnos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/iyy4"
+                android:layout_alignBottom="@+id/iyy4"
+                android:layout_alignStart="@+id/txtTamanno"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTamanno" />
+
+            <TextView
+                android:id="@+id/txtGaraje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtBanos"
+                android:layout_below="@+id/as2"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBanos" />
+
+            <TextView
+                android:id="@+id/pr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/iyy4"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/precio"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtPrecio"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="233dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/s2"
+                android:layout_alignStart="@+id/uno3"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/architects_daughter"
+                android:text="nombre"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.05" />
+
+            <TextView
+                android:id="@+id/iyy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/pr3"
+                android:layout_alignStart="@+id/op2"
+                android:layout_marginBottom="35dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/antiguedad"
+                app:layout_constraintEnd_toStartOf="@+id/txtAnnos"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/rtr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/op2"
+                android:layout_alignStart="@+id/g2"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/trastero"
+                app:layout_constraintEnd_toStartOf="@+id/txtTrastero"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/as2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/g2"
+                android:layout_alignEnd="@+id/uno3"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/banos"
+                app:layout_constraintEnd_toStartOf="@+id/txtBanos"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/s2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/as2"
+                android:layout_alignStart="@+id/as2"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/habitaciones"
+                app:layout_constraintEnd_toStartOf="@+id/txtHabitaciones"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uno" />
+
+            <TextView
+                android:id="@+id/op2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/iyy4"
+                android:layout_alignEnd="@+id/rtr2"
+                android:layout_marginBottom="14dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/tamano"
+                app:layout_constraintEnd_toStartOf="@+id/txtTamanno"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/g2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/rtr2"
+                android:layout_alignStart="@+id/as2"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/garaje"
+                app:layout_constraintEnd_toStartOf="@+id/txtGaraje"
+                app:layout_constraintHorizontal_bias="0.472"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/uno3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/s2"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginStart="54dp"
+                android:fontFamily="@font/advent_pro_bold"
+                android:text="@string/ubicacion"
+                app:layout_constraintEnd_toStartOf="@+id/txtUbicacion"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
+

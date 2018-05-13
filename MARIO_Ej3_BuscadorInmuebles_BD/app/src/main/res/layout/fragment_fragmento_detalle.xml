@@ -1,0 +1,248 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.mario.mario_ej3_buscadorinmuebles_bd.VISTA.FragmentoDetalle">
+
+
+    <RelativeLayout
+        android:id="@+id/rLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/txtTipo"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Datos del Inmueble"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:gravity="bottom|center">
+
+                <ImageView
+                    android:id="@+id/imagen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/txtIdInmueble"
+                    android:layout_alignStart="@+id/txtNumHabitaciones"
+                    android:layout_marginBottom="64dp"
+                    android:src="@mipmap/ic_launcher" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/idZona"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Id Inmueble: " />
+
+                <TextView
+                    android:id="@+id/txtIdInmueble"
+                    android:layout_width="278dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView14"
+                    android:layout_alignBottom="@+id/textView14"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/idZona"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/txtUbicacion"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="18dp"
+                    android:gravity="center"
+                    android:text="id Zona" />
+
+                <TextView
+                    android:id="@+id/txtIdZona"
+                    android:layout_width="231dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/idZona"
+                    android:layout_alignBottom="@+id/idZona"
+                    android:layout_alignEnd="@+id/txtUbicacion"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/ubic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/txtUbicacion"
+                    android:gravity="center"
+                    android:text="Ubicacion" />
+
+                <TextView
+                    android:id="@+id/txtUbicacion"
+                    android:layout_width="231dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="20dp"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/Precio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/ubic"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="Precio" />
+
+                <TextView
+                    android:id="@+id/txtPrecio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView2"
+                    android:layout_alignEnd="@+id/txtUbicacion"
+                    android:layout_alignStart="@+id/txtUbicacion"
+                    android:layout_gravity="bottom"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/Precio"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Tipo Propiedad" />
+
+                <TextView
+                    android:id="@+id/txtTipo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/txtPrecio"
+                    android:layout_alignTop="@+id/textView2"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/textView4"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center_vertical"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:text="Número habitaciones" />
+
+                <TextView
+                    android:id="@+id/txtNumHabitaciones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_alignEnd="@+id/txtTipo"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/textView3"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|left|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView3"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Total Consultas" />
+
+                <TextView
+                    android:id="@+id/txtNumConsultas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView4"
+                    android:layout_alignBottom="@+id/textView4"
+                    android:layout_alignEnd="@+id/txtTipo"
+                    android:layout_alignStart="@+id/txtTipo"
+                    android:layout_gravity="bottom"
+                    android:gravity="center" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</FrameLayout>
+

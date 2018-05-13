@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">PRIME NUMBER CALCULATOR</string>
+    <string name="texto1">Enter that prime number want to calculate.</string>
+    <string name="texto2">For example, if you want to know the sixth prime number, put the number 6 and give to calculate. It will tell you that the sixth prime number is 11.</string>
+    <string name="texto3">Position of the number</string>
+    <string name="texto4">It is the number</string>
+    <string name="Boton">CALCULATE</string>
+</resources>
